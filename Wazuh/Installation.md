@@ -26,6 +26,8 @@ password: admin
 Set static ip address:
 
 ```bash
+nano /etc/sysconfig/network-scripts/ifcfg-eth0
+
 TYPE=Ethernet
 NAME=eth0
 BOOTPROTO=none
