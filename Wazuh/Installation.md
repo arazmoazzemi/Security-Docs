@@ -17,8 +17,10 @@ virt-install \
 
 
 ----
-# server agent remove
-https://documentation.wazuh.com/current/user-manual/agents/remove-agents/remove.html
+
+### [server agent remove](https://documentation.wazuh.com/current/user-manual/agents/remove-agents/remove.html)
+
+
 
 
 /var/ossec/bin/manage_agents
