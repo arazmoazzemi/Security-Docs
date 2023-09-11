@@ -52,7 +52,6 @@ msiexec.exe /i wazuh-agent-4.5.2-1.msi /q WAZUH_MANAGER='192.168.122.88' WAZUH_A
 NET START WazuhSvc
 ```
 
-
 ### [server agent remove](https://documentation.wazuh.com/current/user-manual/agents/remove-agents/remove.html)
 
 Remove agent from server:
@@ -65,7 +64,7 @@ Remove agent from server:
 ```
 
 Remove agent from windows host:
-```bash
+```cmd
 msiexec.exe /x wazuh-agent-4.5.2-1.msi /qn
 ```
 ---
