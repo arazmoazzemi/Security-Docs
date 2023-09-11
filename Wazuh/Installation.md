@@ -1,4 +1,4 @@
-# Install Wazuh on kvm host
+## Install Wazuh on kvm host
 
 ```bash
 virt-install \
