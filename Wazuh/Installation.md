@@ -8,6 +8,7 @@ qemu-convert -O qcow2 wazuh-4.5.2-disk-1.vmdk wazuh-4.5.2.qcow2
 sudo cp wazuh-4.5.2.qcow2 /var/lib/libvirt/images
 ```
 
+Install on kvm host:
 ```bash
 virt-install \
   --import --name wazuh \
