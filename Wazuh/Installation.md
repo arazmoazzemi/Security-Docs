@@ -57,7 +57,7 @@ Remove agent from server:
 /var/ossec/bin/manage_agents -r 001
 ```
 
-Remove agent from windows host
+Remove agent from windows host:
 ```bash
 msiexec.exe /x wazuh-agent-4.5.2-1.msi /qn
 ```
