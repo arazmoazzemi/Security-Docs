@@ -19,7 +19,7 @@ virt-install \
   --osinfo detect=on,require=off \
   --noautoconsole  \
 ```
-info
+Info:
 ```
 ssh root@<ip_address>
 root
