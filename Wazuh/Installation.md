@@ -1,4 +1,4 @@
-## Install Wazuh on kvm host
+## Install Wazuh4.5.2 on kvm host
 
 
 
