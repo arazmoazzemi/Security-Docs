@@ -13,7 +13,16 @@ virt-install \
   --osinfo detect=on,require=off \
   --noautoconsole  \
 ```
+info
+```
+ssh root@<ip_address>
+root
+wazuh
 
+http://localhost:80
+user: admin
+password: admin
+```
 
 
 ----
