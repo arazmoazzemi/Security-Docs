@@ -1,5 +1,7 @@
 ## Install Wazuh on kvm host
 
+
+
 ```bash
 virt-install \
   --import --name wazuh \
@@ -11,3 +13,18 @@ virt-install \
   --osinfo detect=on,require=off \
   --noautoconsole  \
 ```
+
+
+
+----
+# server agent remove
+https://documentation.wazuh.com/current/user-manual/agents/remove-agents/remove.html
+
+
+/var/ossec/bin/manage_agents
+
+
+Example:
+
+/var/ossec/bin/manage_agents -r 001
+---
