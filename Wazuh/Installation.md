@@ -23,7 +23,24 @@ http://localhost:80
 user: admin
 password: admin
 ```
+Set static ip address:
 
+```bash
+TYPE=Ethernet
+NAME=eth0
+BOOTPROTO=none
+IPADDR="192.168.122.88"
+NETMASK="255.255.255.0"
+GATEWAY=192.168.122.1
+DNS1=8.8.8.8
+DNS2=1.1.1.1
+DEVICE=eth0
+ONBOOT="yes"
+PEERDNS=no
+
+
+systemctl restart network
+```
 
 ----
 
