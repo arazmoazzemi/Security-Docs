@@ -23,7 +23,7 @@ virt-install \
 ```bash
 /var/ossec/bin/manage_agents
 
-Example:
+# Example:
 
 /var/ossec/bin/manage_agents -r 001
 ```
