@@ -1,6 +1,6 @@
-## Install Wazuh4.5.2 on kvm host
+## Install Wazuh4.5.2 on kvm host:
 
-- [Download Wazuh OVA server](https://packages.wazuh.com/4.x/vm/wazuh-4.5.2.ova)
+:one:- [Download Wazuh OVA server](https://packages.wazuh.com/4.x/vm/wazuh-4.5.2.ova)
 
 
 ```bash
