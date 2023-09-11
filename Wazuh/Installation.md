@@ -48,11 +48,17 @@ systemctl restart network
 
 ### [server agent remove](https://documentation.wazuh.com/current/user-manual/agents/remove-agents/remove.html)
 
+Remove agent from server:
 ```bash
 /var/ossec/bin/manage_agents
 
 # Example:
 
 /var/ossec/bin/manage_agents -r 001
+```
+
+Remove agent from windows host
+```bash
+msiexec.exe /x wazuh-agent-4.5.2-1.msi /qn
 ```
 ---
