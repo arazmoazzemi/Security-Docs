@@ -20,6 +20,12 @@ virt-install \
   --osinfo detect=on,require=off \
   --noautoconsole  \
 ```
+Create ssh key:
+```bash
+ssh-keygen -t rsa -b 2048
+# PermitRootLogin yes
+```
+
 Info:
 ```
 ssh root@<ip_address>
