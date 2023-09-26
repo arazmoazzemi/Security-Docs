@@ -27,7 +27,7 @@ ssh-keygen -t rsa -b 2048
 ```
 
 Info:
-```
+```bash
 ssh root@<ip_address>
 root
 wazuh
