@@ -2,10 +2,6 @@
 
 - 👉 [Download Wazuh OVA server](https://packages.wazuh.com/4.x/vm/wazuh-4.5.2.ova)
 
-- ### Deployment on Docker:
-
-
-
 ```bash
 tar xvf wazuh-4.5.2.ova
 qemu-convert -O qcow2 wazuh-4.5.2-disk-1.vmdk wazuh-4.5.2.qcow2
@@ -85,3 +81,14 @@ Remove agent from windows host:
 msiexec.exe /x wazuh-agent-4.5.2-1.msi /qn
 ```
 ---
+
+
+- ### Deployment on Docker:
+
+
+
+
+
+
+
+
