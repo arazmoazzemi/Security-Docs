@@ -84,8 +84,9 @@ msiexec.exe /x wazuh-agent-4.5.2-1.msi /qn
 
 
 - ### Deployment on Docker:
-
-
+```bash
+https://hub.docker.com/u/wazuh
+```
 
 
 
