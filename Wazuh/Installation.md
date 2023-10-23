@@ -84,6 +84,8 @@ msiexec.exe /x wazuh-agent-4.5.2-1.msi /qn
 
 
 - ### Deployment on Docker:
+***You can install Wazuh using the Docker images we have created, such as wazuh/wazuh-manager, wazuh/wazuh-indexer and wazuh/wazuh-dashboard. You can find all the Wazuh Docker images in the Docker hub.***
+  
 ```bash
 https://hub.docker.com/u/wazuh
 ```
