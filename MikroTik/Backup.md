@@ -30,7 +30,6 @@ tool/e-mail/send to=YOU@EXAMPLE.COM subject="Daily Backup | $[/system/identity/g
 
 ---
 
-
 #### Create the sheduler: system > Sheduler > + > Name: Daily-Backup
 #### Set the Start Date, Start Time & Interval
 
