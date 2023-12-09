@@ -8,7 +8,7 @@
 #### SCRIPT:
 
 ```
-#### Export Config
+# Export Config
 export file=ROS-Export
 delay 5s
 log/info "Current configuration exported successfully!"
