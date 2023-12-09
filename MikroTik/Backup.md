@@ -2,9 +2,8 @@
 
 ---
 
-# Create the script: system > scripts > + > Name: Backup
+#### Create the script: system > scripts > + > Name: Backup
 
-# ----
 
 ## SCRIPT:
 
