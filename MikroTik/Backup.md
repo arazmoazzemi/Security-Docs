@@ -7,7 +7,8 @@
 
 #### SCRIPT:
 
-# Export Config
+```
+#### Export Config
 export file=ROS-Export
 delay 5s
 log/info "Current configuration exported successfully!"
@@ -21,6 +22,7 @@ delay 5s
 log/info "UM DB backed up successfully!"
 # Send Backup files via Email
 tool/e-mail/send to=YOU@EXAMPLE.COM subject="Daily Backup | $[/system/identity/get name] | $[/system/clock/get date]" body="Hello,\nThis is a daily backup from ROS and UM DB.\nRouterOS version is $[/system/resource/get version]" file=ROS-Backup.backup,UM-DB.umb,ROS-Export.rsc
+```
 
 # ----
 
