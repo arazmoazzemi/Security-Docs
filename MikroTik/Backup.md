@@ -41,11 +41,4 @@ tool/e-mail/send to=YOU@EXAMPLE.COM subject="Daily Backup | $[/system/identity/g
 /system/script/run Backup
 ```
 
-------------------------------------------
-# 
-------------------------------------------
 
-
-# Best regards :)
-# Ramtin
-# youtube.com/c/NetAdminPlus
