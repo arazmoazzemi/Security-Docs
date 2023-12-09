@@ -6,7 +6,6 @@
 
 1: Create the script: system > scripts > + > Name: Backup
 
-
 #### SCRIPT:
 
 ```
